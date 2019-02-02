@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(96, 113, 116);
+    color: white;
+    background-image: url("tree.jpg");
+}
+div {
+    background-color: rgb(145, 194, 211);
+}
+h1 {
+    text-align: center;
+    color: rgb(252, 252, 253);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%
+}
+p {
+    color: rgb(59, 0, 99);
+}
