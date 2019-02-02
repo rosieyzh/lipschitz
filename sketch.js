@@ -1,28 +1,45 @@
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	stroke(0, 255, 0);
 	background(200);
-	frameRate(60);
+	frameRate(200);
 
 	x=width / 2;
 	y=height;
 	rColor=0;
-	gColor=255;
+	gColor=0;
 	bColor=0;
-	bColIncrease=30;
-	gColDecrease=30;
+	rColInc=30;
+	bColInc=30;
+	gColInc=30;
 	weight=4;
 	weightDec=0.8;
 }
 
 function draw() {
 	background(50);
-	angle = frameCount * PI/5000;
+	angle = frameCount * PI/250;
+	rColor = int(cos(frameCount*50)*255);
+	gColor = int(cos(frameCount*50+2*PI/3)*255);
+	bColor = int(cos(frameCount*50+4*PI/3)*255);
+
+	if (gColor < 0 ) {
+		gColor=0;
+	}
+
+	if (rColor < 0 ) {
+		rColor=0;
+	}
+
+	if (bColor < 0 ) {
+		bColor=0;
+	}
+
+	//(gColor + frameCount/10) % 255;
 
 	//start at bottom of window, in the middle
 	translate(width/2, height);
 	stroke(255);
-	branch(120);
+	branch(250);
 
 
 }
@@ -43,20 +60,32 @@ function branch(len) {
 		//rotate canvas by angle
 		//recursively call branch
 		push();
-		bColor+=bColIncrease;
+		rColor+=rColInc;
+		gColor+=gColInc;
+		bColor+=bColInc;
 		weight*=weightDec;
+
 		rotate(angle);
 		branch(len);
-		bColor-=bColIncrease;
+
+		rColor-=rColInc;
+		gColor-=gColInc;
+		bColor-=bColInc;
 		weight=weight/weightDec;
 		pop();
 
 		push();
-		bColor+= bColIncrease;
+		rColor+=rColInc;
+		gColor+=gColInc;
+		bColor+=bColInc;
 		weight*= weightDec;
+
 		rotate(-angle);
 		branch(len);
-		bColor-= bColIncrease;
+
+		rColor-=rColInc;
+		gColor-=gColInc;
+		bColor-=bColInc;
 		weight= weight/weightDec;
 		pop();
 	}
