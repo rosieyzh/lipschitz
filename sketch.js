@@ -9,7 +9,8 @@ function setup() {
 	rColor=0;
 	gColor=255;
 	bColor=0;
-	colIncrease=50;
+	bColIncrease=30;
+	gColDecrease=30;
 	noLoop();
 	weight=4;
 	weightDec=0.8;
@@ -17,12 +18,12 @@ function setup() {
 
 function draw() {
 	background(50);
-	angle = PI/4;
+	angle = PI/2;
 
 	//start at bottom of window, in the middle
 	translate(width/2, height);
 	stroke(255);
-	branch(height/4);
+	branch(height/2);
 
 
 }
@@ -43,20 +44,20 @@ function branch(len) {
 		//rotate canvas by angle
 		//recursively call branch
 		push();
-		bColor+=colIncrease;
+		bColor+=bColIncrease;
 		weight*=weightDec;
 		rotate(angle);
 		branch(len);
-		bColor-=colIncrease;
+		bColor-=bColIncrease;
 		weight=weight/weightDec;
 		pop();
 
 		push();
-		bColor+= colIncrease;
+		bColor+= bColIncrease;
 		weight*= weightDec;
 		rotate(-angle);
 		branch(len);
-		bColor-= colIncrease;
+		bColor-= bColIncrease;
 		weight= weight/weightDec;
 		pop();
 	}
