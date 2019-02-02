@@ -1,10 +1,24 @@
 function setup() {
-	createCanvas(600, 400);
+	createCanvas(windowWidth, windowHeight);
 	stroke(0, 255, 0);
-	frameRate(3);
+	background(200);
+	frameRate(100);
+
+	x=width / 2;
+	y=height;
 }
 
 function draw() {
-	ellipse(50, 50, 50, 50);
-	ellipse(100, 100, 25, 70);
+	background(200);
+
+	stroke(50);
+	fill(0);
+	ellipse(x, y, 24, 24);
+
+	x = x+random(-1, 1);
+	y=y-1;
+
+	if (y<0) {
+		y=height;
+	}
 }
