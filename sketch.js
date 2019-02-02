@@ -1,8 +1,7 @@
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	stroke(0, 255, 0);
 	background(200);
-	frameRate(60);
+	frameRate(200);
 
 	x=width / 2;
 	y=height;
@@ -17,12 +16,12 @@ function setup() {
 
 function draw() {
 	background(50);
-	angle = frameCount * PI/5000;
+	angle = frameCount * PI/250;
 
 	//start at bottom of window, in the middle
 	translate(width/2, height);
 	stroke(255);
-	branch(120);
+	branch(250);
 
 
 }
