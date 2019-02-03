@@ -4,6 +4,7 @@ body {
     background-image: url("tree.jpg");
 }
 div {
+    margin: 0;
     text-align: center;
     background-color: rgba(145, 194, 211, 0.678);  
     margin-top: 2%;

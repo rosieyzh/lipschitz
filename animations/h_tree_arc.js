@@ -18,7 +18,8 @@ function setup() {
 
 function draw() {
 	background(50);
-	angle = frameCount * PI/250;
+	angle = frameCount * PI/100;
+
 	rColor = int(cos(frameCount*50)*255);
 	gColor = int(cos(frameCount*50+2*PI/3)*255);
 	bColor = int(cos(frameCount*50+4*PI/3)*255);
@@ -52,8 +53,7 @@ function branch(len) {
 	noFill();
 	//fill(rColor, gColor, bColor)
 	//line(0,0,0,-len)
-	arc(0,-len/4,len/2,len/2,-drawAng, drawAng)
-	arc(0, -3*len/4, len/2, len/2, drawAng, -drawAng)
+	arc(-len, -len/2, sqrt(5/4)*len,sqrt(5/4)*len,-atan(1/2), atan(1/2))
 
 	//keeps window centered, translates up by length
 	translate(0, -len);

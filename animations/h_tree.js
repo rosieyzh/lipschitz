@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
 	background(50);
-	angle = frameCount * PI/50;
+	angle = frameCount * PI/100;
 	rColor = int(cos(frameCount*50)*255);
 	gColor = int(cos(frameCount*50+2*PI/3)*255);
 	bColor = int(cos(frameCount*50+4*PI/3)*255);
