@@ -1,0 +1,96 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Dee_Yan-Key_-_18_-_Good_Bye_data" version="1.3.0" audacityversion="2.3.0" sel0="57.0674346343" sel1="60.7973212556" vpos="0" h="0.0000000000" zoom="2.6810386866" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="COMMENTS" value="URL: http://freemusicarchive.org/music/Dee_Yan-Key/years_and_years_ago/Dee_Yan-Key_-_12_-_Good_Bye&#x000d;&#x000a;Comments: http://freemusicarchive.org/&#x000d;&#x000a;Curator: &#x000d;&#x000a;Copyright: Attribution-NonCommercial-ShareAlike: http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+		<tag name="TITLE" value="Good Bye"/>
+		<tag name="ARTIST" value="Dee Yan-Key"/>
+		<tag name="Unknown text information frame" value="2018-11-02 3:58:58"/>
+		<tag name="TRACKNUMBER" value="18"/>
+		<tag name="YEAR" value="2018-11-02T03:58:58"/>
+		<tag name="ALBUM" value="years and years ago"/>
+		<tag name="GENRE" value="Jazz"/>
+		<tag name="Copyright message" value="Attribution-NonCommercial-ShareAlike: http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+		<tag name="Band" value="Dee Yan-Key"/>
+	</tags>
+	<wavetrack name="Dee_Yan-Key_-_18_-_Good_Bye" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2681162">
+				<waveblock start="0">
+					<simpleblockfile filename="e08084b7.au" len="262144" min="-0.494712" max="0.566745" rms="0.074749"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e08083fe.au" len="262144" min="-0.551104" max="0.482251" rms="0.092711"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e08089bd.au" len="262144" min="-0.531223" max="0.526" rms="0.101003"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e08083de.au" len="262144" min="-0.503412" max="0.621876" rms="0.112123"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0808387.au" len="262144" min="-0.460179" max="0.488509" rms="0.112507"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e0808a66.au" len="262144" min="-0.482191" max="0.590465" rms="0.086583"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e0808d68.au" len="262144" min="-0.502147" max="0.520684" rms="0.124338"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="e0808162.au" len="262144" min="-0.642374" max="0.560418" rms="0.110514"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="e0808207.au" len="262144" min="-0.526979" max="0.473861" rms="0.115787"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="e0808dd0.au" len="160933" min="-0.568766" max="0.553792" rms="0.109366"/>
+				</waveblock>
+				<waveblock start="2520229">
+					<simpleblockfile filename="e0808982.au" len="160933" min="-0.326381" max="0.266083" rms="0.062819"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Dee_Yan-Key_-_18_-_Good_Bye" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2681162">
+				<waveblock start="0">
+					<simpleblockfile filename="e08084d8.au" len="262144" min="-0.449961" max="0.477952" rms="0.071269"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e08086b5.au" len="262144" min="-0.564756" max="0.461958" rms="0.095737"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0808415.au" len="262144" min="-0.474467" max="0.48816" rms="0.099324"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e08084bb.au" len="262144" min="-0.556802" max="0.508013" rms="0.109646"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e08084d1.au" len="262144" min="-0.464981" max="0.495442" rms="0.108074"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e0808dd5.au" len="262144" min="-0.462583" max="0.583259" rms="0.087097"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e08085c1.au" len="262144" min="-0.519409" max="0.504477" rms="0.123575"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="e0808ae1.au" len="262144" min="-0.558966" max="0.459967" rms="0.112145"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="e0808f45.au" len="262144" min="-0.541042" max="0.5092" rms="0.121389"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="e0808e1b.au" len="160933" min="-0.565046" max="0.477688" rms="0.107997"/>
+				</waveblock>
+				<waveblock start="2520229">
+					<simpleblockfile filename="e080881b.au" len="160933" min="-0.330459" max="0.276653" rms="0.066272"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Makaih_Beats_-_03_-_Waves_makaihbeatsnet_data" version="1.3.0" audacityversion="2.3.0" sel0="138.6058528663" sel1="138.6058528663" vpos="0" h="45.6828279110" zoom="3.8526511612" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="COMMENTS" value="URL: http://freemusicarchive.org/music/Makaih_Beats/Fake_Love_makaihbeatsnet/Waves_makaihbeatsnet&#x000d;&#x000a;Comments: http://freemusicarchive.org/&#x000d;&#x000a;Curator: &#x000d;&#x000a;Copyright: Attribution-Noncommercial-Share Alike 3.0 United States: http://creativecommons.org/licenses/by-nc-sa/3.0/us/"/>
+		<tag name="TITLE" value="Waves (makaihbeats.net)"/>
+		<tag name="Band" value="Makaih Beats"/>
+		<tag name="ARTIST" value="Makaih Beats"/>
+		<tag name="Unknown text information frame" value="2018-12-07 7:10:28"/>
+		<tag name="TRACKNUMBER" value="3"/>
+		<tag name="YEAR" value="2018-12-07T07:10:28"/>
+		<tag name="ALBUM" value="Fake Love (makaihbeats.net)"/>
+		<tag name="Copyright message" value="Attribution-Noncommercial-Share Alike 3.0 United States: http://creativecommons.org/licenses/by-nc-sa/3.0/us/"/>
+	</tags>
+	<wavetrack name="Makaih_Beats_-_03_-_Waves_makaihbeatsnet" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2667073">
+				<waveblock start="0">
+					<simpleblockfile filename="e080851a.au" len="262144" min="-0.71007" max="0.815717" rms="0.19932"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808663.au" len="262144" min="-0.730356" max="0.673092" rms="0.193715"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0808c0c.au" len="262144" min="-1.012178" max="1.018319" rms="0.211576"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0808758.au" len="262144" min="-1.016526" max="1.020963" rms="0.259309"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e080826c.au" len="262144" min="-1.023658" max="1.031386" rms="0.28194"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e0808138.au" len="262144" min="-1.012135" max="1.019037" rms="0.260334"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e0808981.au" len="262144" min="-1.018034" max="1.033404" rms="0.271901"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="e08087ab.au" len="262144" min="-1.018128" max="1.016173" rms="0.242961"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="e0808b84.au" len="262144" min="-1.003918" max="1.005732" rms="0.232728"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="e08089cc.au" len="153888" min="-1.010502" max="1.009374" rms="0.245043"/>
+				</waveblock>
+				<waveblock start="2513184">
+					<simpleblockfile filename="e08080bf.au" len="153889" min="-0.792453" max="0.771275" rms="0.128957"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Makaih_Beats_-_03_-_Waves_makaihbeatsnet" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2667073">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808bab.au" len="262144" min="-0.531065" max="0.603426" rms="0.148921"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808658.au" len="262144" min="-0.78791" max="0.764777" rms="0.153072"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0808089.au" len="262144" min="-1.012347" max="1.013645" rms="0.207341"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0808ed4.au" len="262144" min="-1.023661" max="1.017108" rms="0.252032"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0808831.au" len="262144" min="-1.021268" max="1.023046" rms="0.26415"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e0808b3e.au" len="262144" min="-1.014318" max="1.014512" rms="0.254965"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e0808ec4.au" len="262144" min="-1.033224" max="1.025184" rms="0.255586"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="e0808062.au" len="262144" min="-1.0161" max="1.015239" rms="0.233411"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="e08083b4.au" len="262144" min="-1.003935" max="1.004965" rms="0.236655"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="e0808822.au" len="153888" min="-1.008464" max="1.012912" rms="0.258296"/>
+				</waveblock>
+				<waveblock start="2513184">
+					<simpleblockfile filename="e0808f23.au" len="153889" min="-0.745915" max="0.779083" rms="0.131499"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

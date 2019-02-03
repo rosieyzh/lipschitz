@@ -1,5 +1,11 @@
+
+
+
+
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+   
+
+   	createCanvas(windowWidth, windowHeight);
 	background(200);
 	frameRate(200);
 
@@ -62,6 +68,7 @@ function draw() {
 	stroke(255);
 	branch(250);
 
+    
 
 }
 
