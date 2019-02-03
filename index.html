@@ -14,26 +14,60 @@
             <p>Options: </p>
         </div>
         <div>
-            <form>
-                <legend>Select yor colors: </legend>
-                <input type="checkbox" name="color1" value="Red" > Red<br>
-                <input type="checkbox" name="color2" value="Green" > Green<br>
-                <input type="checkbox" name="color3" value="Blue" > Blue  
-            </form> 
-            <form>
+            <form name="customize">
+                <legend>Select your colors: </legend>
+                <input type="checkbox" name="color1" id = "red" value="Red" > Red<br>
+                <input type="checkbox" name="color2" id = "green" value="Green" > Green<br>
+                <input type="checkbox" name="color3" id = "blue" value="Blue" > Blue
+
                 <legend>Select your seed shape: </legend>
-                <input type="radio" name="shape" value="s1" checked> s1<br>
-                <input type="radio" name="shape" value="s2" > s2<br>
-                <input type="radio" name="shape" value="s3" > s3<br>
-                <input type="radio" name="shape" value="s4" > s4<br>
-                <input type="radio" name="shape" value="s5" > s5<br>
-                <input type="radio" name="shape" value="s6"> s6<br>
+                <input type="radio" name="shape" id = "straight" value="s1" checked> Straight<br>
+                <input type="radio" name="shape" id = "semi" value="s2"> Semi<br>
+                <input type="radio" name="shape" id = "s" value="s3" > S<br>
+                <input type="radio" name="shape" id = "circle" value="s4" > Circle<br>
+                <input type="radio" name="shape" id = "arc" value="s5" > Arc<br>
+                <input type="radio" name="shape" id = "switched" value="s6"> Switched <br>
+                <input type="radio" name="shape" id = "dot" value="s7"> Dot <br>
+                <input type="submit" onclick="setAction()" value = "Generate my personal fractal">   
             </form>
         </div>
             
-        <!--The following is for the button-->
-        <center>
-            <a href="h_tree.html"><button>Generate my personal fractal</button></a>
-        </center>
     </body>
+
+    <script>
+        //boolean variables based on form input
+        var isRed = document.getElementById("red");
+        var isGreen = document.getElementById("green");
+        var isBlue = document.getElementById("blue");
+
+        var straight = document.getElementById("straight");
+        var semi = document.getElementById("semi");
+        var s = document.getElementById("s");
+        var circle = document.getElementById("circle");
+        var arc = document.getElementById("arc");
+        var switched = document.getElementById("switched");
+        var dot = document.getElementById("dot");
+
+        function setAction() {
+            var link = "";
+            if (straight.checked == true) {
+                link="animations/h_tree.html";
+            } else if (semi.checked == true) {
+                link="animations/h_tree_semi.html";
+            } else if (s.checked == true){
+                link="animations/h_tree_s.html";
+            } else if (circle.checked == true) {
+                link="animations/h_tree_circle.html";
+            } else if (arc.checked == true) {
+                link="animations/h_tree_arc.html";
+            } else if (switched.checked == true) {
+                link="animations/h_tree_switched.html";
+            } else if (dot.checked == true) {
+                link="animations/h_tree_dot.html";
+            }
+            document["customize"].action = link;
+        }
+        
+
+    </script>
 </html>

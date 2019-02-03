@@ -5,6 +5,7 @@ body {
     background-size: cover; 
 }
 div {
+    margin: 0;
     text-align: center;
     background-color: rgba(145, 194, 211, 0.678);
     border: solid;/*2% rgba(24, 0, 70, 0.658) solid;  */
