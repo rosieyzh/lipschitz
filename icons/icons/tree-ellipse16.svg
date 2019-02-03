@@ -13,11 +13,11 @@
    height="16"
    viewBox="0 0 4.2333333 4.2333333"
    version="1.1"
-   id="svg8"
+   id="svg4591"
    inkscape:version="0.92.4 (33fec40, 2019-01-16)"
-   sodipodi:docname="tree-line16.svg">
+   sodipodi:docname="tree-ellipse16.svg">
   <defs
-     id="defs2" />
+     id="defs4585" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,20 +25,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="44.8"
-     inkscape:cx="9.5355467"
-     inkscape:cy="7.1248164"
+     inkscape:zoom="22.4"
+     inkscape:cx="7.562174"
+     inkscape:cy="10.684612"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1026"
-     inkscape:window-x="0"
+     inkscape:window-width="959"
+     inkscape:window-height="1025"
+     inkscape:window-x="960"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="0" />
   <metadata
-     id="metadata5">
+     id="metadata4588">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -54,20 +54,32 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-292.76666)">
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.11637125px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 2.0167175,296.77063 v -2.82616"
-       id="path817"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path819"
-       d="m 2.0167175,293.94447 1.0824866,-0.90831"
-       style="fill:none;stroke:#000000;stroke-width:0.05818563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.05818563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 2.0167188,293.94447 0.93423384,293.03616"
-       id="path821"
-       inkscape:connector-curvature="0" />
+    <g
+       id="g5145"
+       transform="matrix(0.49500248,0,0,0.49500247,-0.87745458,150.3019)">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.16500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         ry="2.8731472"
+         rx="1.9711127"
+         cy="293.09119"
+         cx="5.9133382"
+         id="path5136" />
+      <ellipse
+         transform="rotate(-50)"
+         id="ellipse5138"
+         cx="-218.49796"
+         cy="189.6871"
+         rx="0.98555636"
+         ry="1.4365736"
+         style="fill:none;stroke:#000000;stroke-width:0.0825;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0825;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         ry="1.4365736"
+         rx="0.98555636"
+         cy="180.60794"
+         cx="226.10889"
+         id="ellipse5140"
+         transform="rotate(50)" />
+    </g>
   </g>
 </svg>

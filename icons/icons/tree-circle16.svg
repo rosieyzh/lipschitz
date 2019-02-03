@@ -13,11 +13,11 @@
    height="32"
    viewBox="0 0 8.4666667 8.4666667"
    version="1.1"
-   id="svg8"
+   id="svg4591"
    inkscape:version="0.92.4 (33fec40, 2019-01-16)"
-   sodipodi:docname="tree-line32.svg">
+   sodipodi:docname="tree-circle16.svg">
   <defs
-     id="defs2" />
+     id="defs4585" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,19 +26,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.2"
-     inkscape:cx="24.008729"
-     inkscape:cy="17.990176"
+     inkscape:cx="17.414593"
+     inkscape:cy="12.553111"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1026"
-     inkscape:window-x="0"
+     inkscape:window-width="959"
+     inkscape:window-height="1025"
+     inkscape:window-x="960"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="0" />
   <metadata
-     id="metadata5">
+     id="metadata4588">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -53,21 +53,31 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-288.53333)">
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.2327425px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 4.2049853,296.62778 v -5.65232"
-       id="path817"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path819"
-       d="m 4.2049853,290.97546 2.1649733,-1.81662"
-       style="fill:none;stroke:#000000;stroke-width:0.11637125px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.11637125px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 4.2049879,290.97546 -2.16497,-1.81662"
-       id="path821"
-       inkscape:connector-curvature="0" />
+     transform="translate(0,-288.53332)">
+    <g
+       id="g4626"
+       transform="matrix(0.66667,0,0,0.66667,0.04391285,98.668027)">
+      <ellipse
+         ry="3.7397094"
+         rx="3.7646401"
+         cy="292.55664"
+         cx="6.2975383"
+         id="path4579"
+         style="fill:none;stroke:#000000;stroke-width:0.24626404;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.12313202;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse4581"
+         cx="7.8049822"
+         cy="287.77347"
+         rx="1.88232"
+         ry="1.8698547" />
+      <ellipse
+         ry="1.8698547"
+         rx="1.88232"
+         cy="287.74579"
+         cx="4.7440338"
+         id="ellipse4583"
+         style="fill:none;stroke:#000000;stroke-width:0.12313202;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
   </g>
 </svg>

@@ -2,27 +2,31 @@ body {
     background-color: rgb(96, 113, 116);
     color: white;
     background-image: url("tree.jpg");
+    background-size: cover; 
 }
 div {
     margin: 0;
     text-align: center;
-    background-color: rgba(145, 194, 211, 0.678);  
+    background-color: rgba(145, 194, 211, 0.678);
+    border: solid rgba(225, 210, 255, 0.658);/*2%  solid;  */
+    font-family: 'Calligraffitti';
+    font-size: 150%;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 150%;
+
 }
 
 /*Header formating*/
 h1 {
     text-align: center;
-    color: rgb(252, 252, 253);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 200%;
+    color: rgba(252, 252, 253, 0.849);
+    font-family: 'Cedarville Cursive', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 600%;
     animation: fadeAndScale 4s ease-in;
-    background-color: rgb(145, 194, 211); 
-    margin: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
 }
 @keyframes fadeAndScale {
     from {
@@ -34,13 +38,14 @@ h1 {
 }
 
 /*paragraph formating*/
-p{
+p {
     text-align: center;
     color: rgb(0, 2, 31);
     font-size: 150%;
+    background-color: rgba(96, 96, 255, 0.692)
 }
 /*Format 'generate fractal' button*/
-button {
+input[type=submit] {
     background-color: rgba(167, 167, 167, 0.733);
     border: none;
     color: rgba(255, 255, 255, 0.808);
@@ -48,7 +53,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 150%;
+    font-size: 100%;
     font-family: 'Arial Black', Gadget, sans-serif;
     margin: 4px 2px;
     cursor: pointer;
@@ -56,7 +61,7 @@ button {
     transition-duration: 0.4s;   
 }
 /*make the button animate when cursor hovers over it*/
-button:hover { 
+input[type=submit]:hover { 
     background-color: rgba(255, 255, 255, 0.719);
     color: rgb(44, 44, 44);
     border: 2px solid rgba(167, 167, 167, 0.733);
