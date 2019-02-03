@@ -18,9 +18,29 @@ function setup() {
 function draw() {
 	background(50);
 	angle = frameCount * PI/100;
-	rColor = int(cos(frameCount*50)*255);
-	gColor = int(cos(frameCount*50+2*PI/3)*255);
-	bColor = int(cos(frameCount*50+4*PI/3)*255);
+	//checks red, blue and green values
+	var red = localStorage.getItem("isRed");
+	var green = localStorage.getItem("isGreen");
+	var blue = localStorage.getItem("isBlue");
+	
+	var rClicked = false;
+	var gClicked = false;
+	var bClicked = false;
+
+	if (red === "r") {
+		rClicked = true;
+	}
+	if (green === "g") {
+		gClicked = true;
+	}
+	if (blue === "b") {
+		bClicked = true;
+	}
+	
+
+	rColor = rClicked ? int(cos(frameCount*50)*255) : 0;
+	gColor = gClicked ? int(cos(frameCount*50+2*PI/3)*255) : 0;
+	bColor = bClicked ? int(cos(frameCount*50+4*PI/3)*255) : 0;
 
 	if (gColor < 0 ) {
 		gColor=0;

@@ -15,19 +15,39 @@
         </div>
         <div>
             <form name="customize">
-                <legend><u><b>Select your colors: </b></u></legend>
-                <input type="checkbox" name="color1" id = "red" value="Red" > Red  &nbsp; &nbsp;
-                <input type="checkbox" name="color2" id = "green" value="Green" > Green  &nbsp; &nbsp;
-                <input type="checkbox" name="color3" id = "blue" value="Blue" > Blue
+                <legend><b>Select your colors: </b></legend>
+                <input type="checkbox" name="c1" id = "red" value="r" > <img src="icons/transparent-red-circle.svg" style="width:48px;height:39px;"> &nbsp
+                <input type="checkbox" name="c2" id = "green" value="g" > <img src="icons/green_circle.png" style="width:51px;height:51px;"> &nbsp
+                <input type="checkbox" name="c3" id = "blue" value="b" > <img src="icons/Circle_Blue.png" style="width:46px;height:46px;">
 
-                <legend><u><b>Select your seed shape: </b></u></legend>
-                <input type="radio" name="shape" id = "straight" value="s1" checked> Straight<br>
-                <input type="radio" name="shape" id = "semi" value="s2"> Semi<br>
-                <input type="radio" name="shape" id = "s" value="s3" > S<br>
-                <input type="radio" name="shape" id = "circle" value="s4" > Circle<br>
-                <input type="radio" name="shape" id = "arc" value="s5" > Arc<br>
-                <input type="radio" name="shape" id = "switched" value="s6"> Switched <br>
-                <input type="radio" name="shape" id = "dot" value="s7"> Dot <br>
+                <legend><b>Select your seed shape: </b></legend>
+                <label>
+                    <input type="radio" name="shape" id = "straight" value="s1" checked> <img src="icons/tree-line48.svg" > &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "semi" value="s2"> <img src="icons/tree-cemi-circle48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "s" value="s3"> <img src="icons/tree-S48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "circle" value="s4"> <img src="icons/tree-circle48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "arc" value="s5"> <img src="icons/tree-arc48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "switched" value="s6"> <img src="icons/tree-cemi-circle-inverted48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "dot" value="s7"> <img src="icons/tree-dot48.svg"> &nbsp; &nbsp;
+                </label><br><br>
                 <input type="submit" onclick="setAction()" value = "Generate my personal fractal">   
             </form>
         </div>
@@ -48,22 +68,35 @@
         var switched = document.getElementById("switched");
         var dot = document.getElementById("dot");
 
+
+
         function setAction() {
+
+            
+            var red= isRed.checked ? "r" : "";
+            var green= isGreen.checked ? "g" : "";
+            var blue= isBlue.checked ? "b" : "";
+
+            localStorage.setItem("isRed", red);
+            localStorage.setItem("isGreen", green);
+            localStorage.setItem("isBlue", blue);
+    
+
             var link = "";
             if (straight.checked == true) {
-                link="animations/h_tree.html";
+                link="animations/h_tree.html";//+red+green+blue;
             } else if (semi.checked == true) {
-                link="animations/h_tree_semi.html";
+                link="animations/h_tree_semi.html"; //+red+green+blue;
             } else if (s.checked == true){
-                link="animations/h_tree_s.html";
+                link="animations/h_tree_s.html"; //+red+green+blue;
             } else if (circle.checked == true) {
-                link="animations/h_tree_circle.html";
+                link="animations/h_tree_circle.html"; //+red+green+blue;
             } else if (arc.checked == true) {
-                link="animations/h_tree_arc.html";
+                link="animations/h_tree_arc.html"; //+red+green+blue;
             } else if (switched.checked == true) {
-                link="animations/h_tree_switched.html";
+                link="animations/h_tree_switched.html"; //+red+green+blue;
             } else if (dot.checked == true) {
-                link="animations/h_tree_dot.html";
+                link="animations/h_tree_dot.html"; //+red+green+blue;
             }
             document["customize"].action = link;
         }
