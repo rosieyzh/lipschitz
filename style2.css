@@ -4,7 +4,7 @@ body {
     background-image: url("tree.jpg");
     background-size: cover; 
 }
-div {
+div:not(.shapes) {
     margin: 0;
     text-align: center;
     background-color: rgba(133, 152, 187, 0.678);
@@ -23,7 +23,7 @@ h1 {
     text-align: center;
     color: rgba(252, 252, 253, 0.849);
     font-family: 'Cedarville Cursive', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 600%;
+    font-size: 300%;
     animation: fadeAndScale 3.5s ease-in;
     margin-top: 0.5%;
     margin-bottom: 0%;
@@ -61,7 +61,7 @@ input[type=submit] {
     text-decoration: none;
     display: inline-block;
     font-size: 100%;
-    font-family: 'Arial Black', Gadget, sans-serif;
+    font-family: 'Cedarville Cursive', Gadget, sans-serif;
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* duration */
@@ -156,10 +156,26 @@ transform: rotate(45deg);
 }
 
 [type=radio]:checked + img {
-  outline: 2px solid #FFD700;
+  outline: 2px solid #DAA520;
 }
 
-img {
+/* hide radio buttons */
+[type=checkbox] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+
+input[type=checkbox] + label {
+    cursor: pointer;
+}
+
+.shapes {
     -webkit-filter: invert(1);
    filter: invert(1);
 }
