@@ -1,0 +1,96 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Lobo_Loco_-_18_-_Mystical_Beauty_ID_831_data" version="1.3.0" audacityversion="2.3.0" sel0="68.0798830726" sel1="68.0798830726" vpos="0" h="0.0000000000" zoom="2.6292642102" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="COMMENTS" value="URL: http://freemusicarchive.org/music/Lobo_Loco/HEADCRASH/Mystical_Beauty_ID_831&#x000d;&#x000a;Comments: http://freemusicarchive.org/&#x000d;&#x000a;Curator: &#x000d;&#x000a;Copyright: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0: http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+		<tag name="TITLE" value="Mystical Beauty (ID 831)"/>
+		<tag name="ARTIST" value="Lobo Loco"/>
+		<tag name="Unknown text information frame" value="2018-10-26 3:22:04"/>
+		<tag name="TRACKNUMBER" value="18"/>
+		<tag name="YEAR" value="2018-10-26T03:22:04"/>
+		<tag name="ALBUM" value="HEADCRASH"/>
+		<tag name="GENRE" value="Blues"/>
+		<tag name="Copyright message" value="Creative Commons Attribution-NonCommercial-NoDerivatives 4.0: http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+		<tag name="Band" value="Lobo Loco"/>
+	</tags>
+	<wavetrack name="Lobo_Loco_-_18_-_Mystical_Beauty_ID_831" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2650095">
+				<waveblock start="0">
+					<simpleblockfile filename="e080853c.au" len="262144" min="-0.787225" max="0.876733" rms="0.137866"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e080804e.au" len="262144" min="-0.789674" max="0.827397" rms="0.129559"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e080879f.au" len="262144" min="-0.693842" max="0.68735" rms="0.108877"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e080864d.au" len="262144" min="-0.719355" max="0.879152" rms="0.129352"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e080886b.au" len="262144" min="-0.687236" max="0.736399" rms="0.125163"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e0808666.au" len="262144" min="-0.677513" max="0.749067" rms="0.105892"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e08089a3.au" len="262144" min="-0.689714" max="0.611661" rms="0.104625"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="e0808556.au" len="262144" min="-0.678994" max="0.686944" rms="0.111229"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="e0808e2e.au" len="262144" min="-0.670343" max="0.677471" rms="0.09316"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="e0808bb9.au" len="145399" min="-0.62402" max="0.502305" rms="0.081847"/>
+				</waveblock>
+				<waveblock start="2504695">
+					<simpleblockfile filename="e0808e08.au" len="145400" min="-0.391906" max="0.434283" rms="0.071466"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Lobo_Loco_-_18_-_Mystical_Beauty_ID_831" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2650095">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808822.au" len="262144" min="-0.73855" max="0.698162" rms="0.137878"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808107.au" len="262144" min="-0.767605" max="0.861374" rms="0.128305"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e080841a.au" len="262144" min="-0.770879" max="0.600363" rms="0.109857"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e080877e.au" len="262144" min="-0.778574" max="0.703234" rms="0.12226"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0808c84.au" len="262144" min="-0.762351" max="0.65238" rms="0.124051"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e0808dd0.au" len="262144" min="-0.784294" max="0.791352" rms="0.103063"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e0808440.au" len="262144" min="-0.52987" max="0.587438" rms="0.101063"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="e08085bc.au" len="262144" min="-0.796819" max="0.757345" rms="0.121144"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="e0808212.au" len="262144" min="-0.501757" max="0.499653" rms="0.087002"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="e08086ae.au" len="145399" min="-0.549545" max="0.496747" rms="0.098585"/>
+				</waveblock>
+				<waveblock start="2504695">
+					<simpleblockfile filename="e080840a.au" len="145400" min="-0.568588" max="0.543097" rms="0.073964"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

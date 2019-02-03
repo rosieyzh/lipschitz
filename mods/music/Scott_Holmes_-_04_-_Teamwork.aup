@@ -1,0 +1,96 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Scott_Holmes_-_04_-_Teamwork_data" version="1.3.0" audacityversion="2.3.0" sel0="59.3970443350" sel1="60.6698334506" vpos="0" h="0.0000000000" zoom="4.7140392781" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="COMMENTS" value="URL: http://freemusicarchive.org/music/Scott_Holmes/Corporate__Motivational_Music_2/Teamwork_1189&#x000d;&#x000a;Comments: http://freemusicarchive.org/&#x000d;&#x000a;Curator: &#x000d;&#x000a;Copyright: "/>
+		<tag name="TITLE" value="Teamwork"/>
+		<tag name="Band" value="Scott Holmes"/>
+		<tag name="ARTIST" value="Scott Holmes"/>
+		<tag name="Unknown text information frame" value="2018-11-22 7:01:19"/>
+		<tag name="TRACKNUMBER" value="4"/>
+		<tag name="Software" value="Logic Pro X 10.4.1"/>
+		<tag name="YEAR" value="2018-11-22T07:01:19"/>
+		<tag name="ALBUM" value="Corporate and Motivational Music 2"/>
+		<tag name="GENRE" value="Pop"/>
+	</tags>
+	<wavetrack name="Scott_Holmes_-_04_-_Teamwork" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2675540">
+				<waveblock start="0">
+					<simpleblockfile filename="e080873d.au" len="262144" min="-0.436634" max="0.451061" rms="0.084799"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808285.au" len="262144" min="-0.507569" max="0.511889" rms="0.092108"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0808d09.au" len="262144" min="-0.497001" max="0.48624" rms="0.101977"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e08081a6.au" len="262144" min="-0.526891" max="0.462039" rms="0.111468"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e08084b9.au" len="262144" min="-0.807616" max="0.90436" rms="0.179443"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e08088c4.au" len="262144" min="-0.757323" max="0.837101" rms="0.200688"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e0808d53.au" len="262144" min="-0.768537" max="0.828163" rms="0.196045"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="e0808330.au" len="262144" min="-0.813409" max="0.874215" rms="0.198275"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="e080815b.au" len="262144" min="-0.886204" max="0.848855" rms="0.190665"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="e08083d1.au" len="158122" min="-0.960455" max="0.84957" rms="0.195032"/>
+				</waveblock>
+				<waveblock start="2517418">
+					<simpleblockfile filename="e080814d.au" len="158122" min="-0.615216" max="0.592811" rms="0.10383"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Scott_Holmes_-_04_-_Teamwork" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2675540">
+				<waveblock start="0">
+					<simpleblockfile filename="e080815a.au" len="262144" min="-0.412946" max="0.431031" rms="0.070016"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808e20.au" len="262144" min="-0.520381" max="0.42694" rms="0.085598"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e08085f8.au" len="262144" min="-0.492628" max="0.453795" rms="0.100631"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0808cb2.au" len="262144" min="-0.463836" max="0.408497" rms="0.094716"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0808ed7.au" len="262144" min="-0.855591" max="0.864443" rms="0.177555"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e0808d8d.au" len="262144" min="-0.720069" max="0.972848" rms="0.207696"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e0808a36.au" len="262144" min="-0.794487" max="0.851383" rms="0.206762"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="e08084a1.au" len="262144" min="-0.898487" max="0.921836" rms="0.208146"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="e0808d77.au" len="262144" min="-0.9066" max="0.809077" rms="0.197809"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="e0808e9c.au" len="158122" min="-0.888058" max="0.851122" rms="0.209128"/>
+				</waveblock>
+				<waveblock start="2517418">
+					<simpleblockfile filename="e0808581.au" len="158122" min="-0.673009" max="0.659528" rms="0.088795"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
