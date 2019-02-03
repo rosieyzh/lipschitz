@@ -1,5 +1,19 @@
+
+
+
+//var soundA;
+//function preload() {
+    //soundFormats('mp3');
+    //soundA = loadSound('http://localhost:3000/circlemp3.mp3');
+//}
+
+
+
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+    //soundA.setVolume(0.5);
+    //soundA.play();
+
+   	createCanvas(windowWidth, windowHeight);
 	background(200);
 	frameRate(200);
 
@@ -42,6 +56,7 @@ function draw() {
 	stroke(255);
 	branch(250);
 
+    
 
 }
 
