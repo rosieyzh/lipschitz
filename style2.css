@@ -156,5 +156,10 @@ transform: rotate(45deg);
 }
 
 [type=radio]:checked + img {
-  outline: 2px solid #4646ff;
+  outline: 2px solid #FFD700;
+}
+
+img {
+    -webkit-filter: invert(1);
+   filter: invert(1);
 }
