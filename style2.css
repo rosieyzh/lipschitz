@@ -142,3 +142,19 @@ border-width: 0 3px 3px 0;
 -ms-transform: rotate(45deg);
 transform: rotate(45deg);
 }
+
+/* hide radio buttons */
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=radio] + img {
+  cursor: pointer;
+}
+
+[type=radio]:checked + img {
+  outline: 2px solid #4646ff;
+}

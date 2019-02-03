@@ -16,22 +16,38 @@
         <div>
             <form name="customize">
                 <legend><b>Select your colors: </b></legend>
-                <!--<label class="container">
-                    <input type="checkbox" name="c1" id = "red" value="r" > Red
-                    <span class="checkmark"></span>
-                </label>-->
                 <input type="checkbox" name="c1" id = "red" value="r" > <img src="icons/transparent-red-circle.svg" style="width:48px;height:39px;"> &nbsp
                 <input type="checkbox" name="c2" id = "green" value="g" > <img src="icons/green_circle.png" style="width:51px;height:51px;"> &nbsp
                 <input type="checkbox" name="c3" id = "blue" value="b" > <img src="icons/Circle_Blue.png" style="width:46px;height:46px;">
 
                 <legend><b>Select your seed shape: </b></legend>
-                <input type="radio" name="shape" id = "straight" value="s1" checked> <img src="icons/tree-line48.svg" size=2px><br>
-                <input type="radio" name="shape" id = "semi" value="s2"> <img src="icons/tree-cemi-circle48.svg"> <br>
-                <input type="radio" name="shape" id = "s" value="s3" > <img src="icons/tree-S48.svg"> <br>
-                <input type="radio" name="shape" id = "circle" value="s4" > <img src="icons/tree-circle48.svg"> <br>
-                <input type="radio" name="shape" id = "arc" value="s5" > <img src="icons/tree-arc48.svg"> <br>
-                <input type="radio" name="shape" id = "switched" value="s6"> <img src="icons/tree-cemi-circle-inverted48.svg"> <br>
-                <input type="radio" name="shape" id = "dot" value="s7"> <img src="icons/tree-dot48.svg"> <br>
+                <label>
+                    <input type="radio" name="shape" id = "straight" value="s1" checked> <img src="icons/tree-line48.svg" > &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "semi" value="s2"> <img src="icons/tree-cemi-circle48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "s" value="s3"> <img src="icons/tree-S48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "circle" value="s4"> <img src="icons/tree-circle48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "arc" value="s5"> <img src="icons/tree-arc48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "switched" value="s6"> <img src="icons/tree-cemi-circle-inverted48.svg"> &nbsp; &nbsp;
+                </label>
+
+                <label>
+                    <input type="radio" name="shape" id = "dot" value="s7"> <img src="icons/tree-dot48.svg"> &nbsp; &nbsp;
+                </label><br><br>
                 <input type="submit" onclick="setAction()" value = "Generate my personal fractal">   
             </form>
         </div>
