@@ -2,26 +2,30 @@ body {
     background-color: rgb(96, 113, 116);
     color: white;
     background-image: url("tree.jpg");
+    background-size: cover; 
 }
 div {
     text-align: center;
-    background-color: rgba(145, 194, 211, 0.678);  
+    background-color: rgba(145, 194, 211, 0.678);
+    border: solid;/*2% rgba(24, 0, 70, 0.658) solid;  */
+    font-family: 'Calligraffitti';
+    font-size: 150%;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 150%;
+
 }
 
 /*Header formating*/
 h1 {
     text-align: center;
-    color: rgb(252, 252, 253);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 200%;
+    color: rgba(252, 252, 253, 0.849);
+    font-family: 'Cedarville Cursive', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 600%;
     animation: fadeAndScale 4s ease-in;
-    background-color: rgb(145, 194, 211); 
-    margin: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
 }
 @keyframes fadeAndScale {
     from {
@@ -33,10 +37,11 @@ h1 {
 }
 
 /*paragraph formating*/
-p{
+p {
     text-align: center;
     color: rgb(0, 2, 31);
     font-size: 150%;
+    background-color: blue
 }
 /*Format 'generate fractal' button*/
 button {
