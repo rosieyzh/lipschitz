@@ -12,3 +12,5 @@ Music: Sourced from Creative Commons.
 ## More Information
 H-trees are a fractal tree structure that derives its name from the shape it obtains when splitting branches at an angle of 90 degrees. Learn more on [Wikipedia](https://en.wikipedia.org/wiki/H_tree).
 
+Some examples of what can be generated (but it looks way cooler animated!)
+![collage](/media/collage.png)
