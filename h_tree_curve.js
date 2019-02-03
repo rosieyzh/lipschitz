@@ -8,16 +8,17 @@ function setup() {
 	rColor=0;
 	gColor=0;
 	bColor=0;
-	rColInc=15;
-	bColInc=15;
-	gColInc=15;
+	rColInc=30;
+	bColInc=30;
+	gColInc=30;
 	weight=4;
 	weightDec=0.8;
+	drawAng=PI/2;
 }
 
 function draw() {
 	background(50);
-	angle = frameCount * PI/50;
+	angle = frameCount * PI/250;
 	rColor = int(cos(frameCount*50)*255);
 	gColor = int(cos(frameCount*50+2*PI/3)*255);
 	bColor = int(cos(frameCount*50+4*PI/3)*255);
@@ -34,7 +35,6 @@ function draw() {
 		bColor=0;
 	}
 
-	//(gColor + frameCount/10) % 255;
 
 	//start at bottom of window, in the middle
 	translate(width/2, height);
@@ -49,7 +49,11 @@ function branch(len) {
 	//negative len moves upwards
 	strokeWeight(weight);
 	stroke(rColor, gColor, bColor)
-	line(0,0,0, -len);
+	noFill();
+	//fill(rColor, gColor, bColor)
+	//line(0,0,0,-len)
+	arc(0,-len/4,len/2,len/2,-drawAng, drawAng)
+	arc(0, -3*len/4, len/2, len/2, drawAng, -drawAng)
 
 	//keeps window centered, translates up by length
 	translate(0, -len);
@@ -59,6 +63,7 @@ function branch(len) {
 	if (len>2) {
 		//rotate canvas by angle
 		//recursively call branch
+
 		push();
 		rColor+=rColInc;
 		gColor+=gColInc;
