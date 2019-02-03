@@ -60,7 +60,7 @@ function branch(len) {
 	//shortens length of next branch
 	len*=1/sqrt(2);
 
-	if (len>0.01) {
+	if (len>2) {
 		//rotate canvas by angle
 		//recursively call branch
 
