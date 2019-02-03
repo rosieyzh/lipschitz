@@ -15,6 +15,7 @@
         </div>
         <div>
             <form name="customize">
+<<<<<<< HEAD
                 <legend><b>Select your colors: </b></legend>
                 <label class="container">
                     <input type="checkbox" name="color1" id = "red" value="Red" > Red
@@ -22,6 +23,16 @@
                 </label>
                 <input type="checkbox" name="color2" id = "green" value="Green" > Green  &nbsp; &nbsp;
                 <input type="checkbox" name="color3" id = "blue" value="Blue" > Blue
+=======
+                <legend>Select your colors: </legend>
+                <input type="checkbox" name="c1" id = "red" value="r" > Red<br>
+                <input type="checkbox" name="c2" id = "green" value="g" > Green<br>
+                <input type="checkbox" name="c3" id = "blue" value="b" > Blue
+                <legend><u><b>Select your colors: </b></u></legend>
+                <input type="checkbox" name="c1" id = "red" value="r" > Red  &nbsp; &nbsp;
+                <input type="checkbox" name="c2" id = "green" value="g" > Green  &nbsp; &nbsp;
+                <input type="checkbox" name="c3" id = "blue" value="b" > Blue
+>>>>>>> 6cd5a2deaa8b2156e948786fb71161db0a3dfda3
 
                 <legend><b>Select your seed shape: </b></legend>
                 <input type="radio" name="shape" id = "straight" value="s1" checked> Straight<br>
@@ -51,22 +62,35 @@
         var switched = document.getElementById("switched");
         var dot = document.getElementById("dot");
 
+
+
         function setAction() {
+
+            
+            var red= isRed.checked ? "r" : "";
+            var green= isGreen.checked ? "g" : "";
+            var blue= isBlue.checked ? "b" : "";
+
+            localStorage.setItem("isRed", red);
+            localStorage.setItem("isGreen", green);
+            localStorage.setItem("isBlue", blue);
+    
+
             var link = "";
             if (straight.checked == true) {
-                link="animations/h_tree.html";
+                link="animations/h_tree.html";//+red+green+blue;
             } else if (semi.checked == true) {
-                link="animations/h_tree_semi.html";
+                link="animations/h_tree_semi.html"; //+red+green+blue;
             } else if (s.checked == true){
-                link="animations/h_tree_s.html";
+                link="animations/h_tree_s.html"; //+red+green+blue;
             } else if (circle.checked == true) {
-                link="animations/h_tree_circle.html";
+                link="animations/h_tree_circle.html"; //+red+green+blue;
             } else if (arc.checked == true) {
-                link="animations/h_tree_arc.html";
+                link="animations/h_tree_arc.html"; //+red+green+blue;
             } else if (switched.checked == true) {
-                link="animations/h_tree_switched.html";
+                link="animations/h_tree_switched.html"; //+red+green+blue;
             } else if (dot.checked == true) {
-                link="animations/h_tree_dot.html";
+                link="animations/h_tree_dot.html"; //+red+green+blue;
             }
             document["customize"].action = link;
         }
