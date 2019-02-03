@@ -1,7 +1,7 @@
 # H-Treegonometrees
 
 A fractal generator derived from the creation of an H-tree paired with music. 
-Created for [McHacks 6](https://mchacks.ca/) from February 2-3, 2019. See our Devpost submission!
+Created for [McHacks 6](https://mchacks.ca/) from February 2-3, 2019. See our [Devpost](https://devpost.com/software/h-treegonometrees) submission or click [here](https://rosieyzh.github.io/lipschitz) to see it in action! :)
 
 ## Authors
 Programmed by Team Lipschitz: [Rosie Zhao](https://github.com/rosieyzh), [Ran Tao](https://github.com/generantao), [Yao Liu](https://github.com/yolu16), and [Stephen Fay](https://github.com/dcxSt) of McGill University. 
